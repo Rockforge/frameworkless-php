@@ -1,0 +1,22 @@
+{
+    "name":"Frameworkless PHP",
+    "description": "PHP that has no framework",
+    "keywords": ["PHP", "Frameworkless"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chan Jurilla",
+            "email": "jurillachristian@example.com",
+            "role": "Main Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "filp/whoops": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
